@@ -69,7 +69,7 @@ h2 {
     src: url('fonts/Jaapokki.woff2') format('woff2'),
          url('fonts/Jaapokki.woff') format('woff');
 }
-.btn1 {
+.img1 {
     background-image:url("imgs/logo.svg");
     border: none;
     display: inline-block;
