@@ -59,9 +59,9 @@ h2 {
 .text1 {
     padding-top: 25vh;
     position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 75%;
+    left: 75%;
+    transform: translate(-75%, -75%);
 }
 
 @font-face {
