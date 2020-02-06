@@ -59,7 +59,7 @@ h2 {
 .text1 {
     padding-top: 0vh;
     position: relative;
-    top: 100%;
+    top: 0%;
     left: 75%;
     transform: translate(-75%, -75%);
 }
