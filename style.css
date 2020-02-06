@@ -51,7 +51,7 @@ h1 {
 h2 {
 	font-family: 'Jaapokki';
 	font-size: 60px;
-	color: grey;
+	color: white;
 	text-align: center;
 	font-weight: normal;
 }
@@ -71,9 +71,9 @@ h2 {
 }
 .img1 {
     background :url("imgs/zlogo.svg");
-    height: 100px;
-    width: 100px;
-    border: 20px;
+    height: 50px;
+    width: 50px;
+    border: 40px;
     margin: 7.5px 7.5px;
-    border-radius: 25%;
+    border-radius: 50%;
 }
