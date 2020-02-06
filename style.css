@@ -50,8 +50,8 @@ h1 {
 
 h2 {
 	font-family: 'Jaapokki';
-	font-size: 72px;
-	color: white;
+	font-size: 60px;
+	color: grey;
 	text-align: center;
 	font-weight: normal;
 }
@@ -73,7 +73,7 @@ h2 {
     background :url("imgs/zlogo.svg");
     height: 100px;
     width: 100px;
-    border: none;
+    border: 20px;
     margin: 7.5px 7.5px;
     border-radius: 25%;
 }
