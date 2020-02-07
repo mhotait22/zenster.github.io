@@ -3,12 +3,13 @@
 body {
     background: linear-gradient(to right, #00B5FF 0%, #00498C 100%);
 }
+
 .fade {
-    -webkit-animation: fadein 3.5s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 3.5s; /* Firefox < 16 */
-        -ms-animation: fadein 3.5s; /* Internet Explorer */
-         -o-animation: fadein 3.5s; /* Opera < 12.1 */
-            animation: fadein 3.5s;
+    -webkit-animation: fadein 4; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4s; /* Firefox < 16 */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera < 12.1 */
+            animation: fadein 4s;
 }
 
 @keyframes fadein {
@@ -59,9 +60,9 @@ h2 {
 .text1 {
     padding-top: 0vh;
     position: relative;
-    top: 0%;
+    top: 24%;
     left: 75%;
-    transform: translate(-75%, -25%);
+    transform: translate(-75%, -20%);
 }
 
 @font-face {
@@ -69,11 +70,12 @@ h2 {
     src: url('fonts/Jaapokki.woff2') format('woff2'),
          url('fonts/Jaapokki.woff') format('woff');
 }
+
 .img1 {
     background :url("imgs/zlogo.svg");
     height: 50px;
     width: 50px;
     border: 40px;
     margin: 7.5px 7.5px;
-    border-radius: 50%;
+    border-radius: 100%;
 }
