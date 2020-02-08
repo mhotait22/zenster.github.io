@@ -51,7 +51,7 @@ h1 {
 
 h2 {
 	font-family: 'Jaapokki';
-	font-size: 60px;
+	font-size: 48px;
 	color: white;
 	text-align: center;
 	font-weight: normal;
@@ -61,6 +61,13 @@ h2 {
     padding-top: 0vh;
     position: relative;
     top: 20%;
+    left: 0%;
+}
+
+.text2 {
+    padding-top: 0vh;
+    position: relative;
+    top: 6%;
     left: 0%;
 }
 
