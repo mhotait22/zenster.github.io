@@ -50,7 +50,7 @@ header {
 
 h1 {
 	font-family: 'Jaapokki';
-	font-size: 144px;
+	font-size: 120px;
 	color: white;
 	text-align: center;
 	font-weight: normal;
@@ -74,13 +74,13 @@ h2 {
 .text1 {
     padding-top: 0vh;
     position: relative;
-    top: 16%;
+    top: 20%;
 }
 
 .text2 {
     padding-top: 0vh;
     position: relative;
-    top: 4%;
+    top: 8%;
 }
 
 @font-face {
