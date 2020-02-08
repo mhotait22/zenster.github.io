@@ -1,19 +1,19 @@
-@charset 'UTF-8';
+@charset "UTF-8";
 
 body {
     background: linear-gradient(to right, #00B5FF 0%, #00498C 100%);
 }
 
 .fade {
-    -webkit-animation: fadein 4; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 4s; /* Firefox < 16 */
-        -ms-animation: fadein 4s; /* Internet Explorer */
-         -o-animation: fadein 4s; /* Opera < 12.1 */
+    -webkit-animation: fadein 4s;
+       -moz-animation: fadein 4s;
+        -ms-animation: fadein 4s;
+         -o-animation: fadein 4s;
             animation: fadein 4s;
 }
 
 @keyframes fadein {
-    from { opacity: 0; }
+    from { opacity: 1; }
     to   { opacity: 1; }
 }
 
@@ -41,6 +41,13 @@ body {
     to   { opacity: 1; }
 }
 
+header {
+    font-family: 'Jaapokki';
+    font-size: 24px;
+    color: white;
+    font-weight: normal;
+}
+
 h1 {
 	font-family: 'Jaapokki';
 	font-size: 144px;
@@ -57,18 +64,23 @@ h2 {
 	font-weight: normal;
 }
 
+.name {
+    padding-top: 0vh;
+    position: absolute;
+    top: 2.25%;
+    left: 3.8%;
+}
+
 .text1 {
     padding-top: 0vh;
     position: relative;
-    top: 20%;
-    left: 0%;
+    top: 16%;
 }
 
 .text2 {
     padding-top: 0vh;
     position: relative;
-    top: 6%;
-    left: 0%;
+    top: 4%;
 }
 
 @font-face {
